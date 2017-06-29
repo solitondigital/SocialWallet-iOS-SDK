@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717A5A411F04F4A200D6B1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A401F04F4A200D6B1DC /* AppDelegate.swift */; };
+		717A5A431F04F4A200D6B1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A421F04F4A200D6B1DC /* ViewController.swift */; };
+		717A5A461F04F4A200D6B1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A441F04F4A200D6B1DC /* Main.storyboard */; };
+		717A5A481F04F4A200D6B1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A471F04F4A200D6B1DC /* Assets.xcassets */; };
+		717A5A4B1F04F4A200D6B1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A491F04F4A200D6B1DC /* LaunchScreen.storyboard */; };
+		717A5A561F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A551F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift */; };
+		717A5A611F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A601F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		717A5A521F04F4A200D6B1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717A5A351F04F4A200D6B1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717A5A3C1F04F4A200D6B1DC;
+			remoteInfo = "SocialWallet-iOS-SDK-Demo";
+		};
+		717A5A5D1F04F4A200D6B1DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717A5A351F04F4A200D6B1DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717A5A3C1F04F4A200D6B1DC;
+			remoteInfo = "SocialWallet-iOS-SDK-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		717A5A3D1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialWallet-iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717A5A401F04F4A200D6B1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717A5A421F04F4A200D6B1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		717A5A451F04F4A200D6B1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		717A5A471F04F4A200D6B1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717A5A4A1F04F4A200D6B1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		717A5A4C1F04F4A200D6B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717A5A511F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SocialWallet-iOS-SDK-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717A5A551F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialWallet_iOS_SDK_DemoTests.swift; sourceTree = "<group>"; };
+		717A5A571F04F4A200D6B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717A5A5C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SocialWallet-iOS-SDK-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717A5A601F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialWallet_iOS_SDK_DemoUITests.swift; sourceTree = "<group>"; };
+		717A5A621F04F4A200D6B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717A5A3A1F04F4A200D6B1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717A5A4E1F04F4A200D6B1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717A5A591F04F4A200D6B1DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717A5A341F04F4A200D6B1DC = {
+			isa = PBXGroup;
+			children = (
+				717A5A3F1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo */,
+				717A5A541F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests */,
+				717A5A5F1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests */,
+				717A5A3E1F04F4A200D6B1DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717A5A3E1F04F4A200D6B1DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717A5A3D1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo.app */,
+				717A5A511F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests.xctest */,
+				717A5A5C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717A5A3F1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				717A5A401F04F4A200D6B1DC /* AppDelegate.swift */,
+				717A5A421F04F4A200D6B1DC /* ViewController.swift */,
+				717A5A441F04F4A200D6B1DC /* Main.storyboard */,
+				717A5A471F04F4A200D6B1DC /* Assets.xcassets */,
+				717A5A491F04F4A200D6B1DC /* LaunchScreen.storyboard */,
+				717A5A4C1F04F4A200D6B1DC /* Info.plist */,
+			);
+			path = "SocialWallet-iOS-SDK-Demo";
+			sourceTree = "<group>";
+		};
+		717A5A541F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				717A5A551F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift */,
+				717A5A571F04F4A200D6B1DC /* Info.plist */,
+			);
+			path = "SocialWallet-iOS-SDK-DemoTests";
+			sourceTree = "<group>";
+		};
+		717A5A5F1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				717A5A601F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift */,
+				717A5A621F04F4A200D6B1DC /* Info.plist */,
+			);
+			path = "SocialWallet-iOS-SDK-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717A5A3C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717A5A651F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-Demo" */;
+			buildPhases = (
+				717A5A391F04F4A200D6B1DC /* Sources */,
+				717A5A3A1F04F4A200D6B1DC /* Frameworks */,
+				717A5A3B1F04F4A200D6B1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SocialWallet-iOS-SDK-Demo";
+			productName = "SocialWallet-iOS-SDK-Demo";
+			productReference = 717A5A3D1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		717A5A501F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717A5A681F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-DemoTests" */;
+			buildPhases = (
+				717A5A4D1F04F4A200D6B1DC /* Sources */,
+				717A5A4E1F04F4A200D6B1DC /* Frameworks */,
+				717A5A4F1F04F4A200D6B1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717A5A531F04F4A200D6B1DC /* PBXTargetDependency */,
+			);
+			name = "SocialWallet-iOS-SDK-DemoTests";
+			productName = "SocialWallet-iOS-SDK-DemoTests";
+			productReference = 717A5A511F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		717A5A5B1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717A5A6B1F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-DemoUITests" */;
+			buildPhases = (
+				717A5A581F04F4A200D6B1DC /* Sources */,
+				717A5A591F04F4A200D6B1DC /* Frameworks */,
+				717A5A5A1F04F4A200D6B1DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717A5A5E1F04F4A200D6B1DC /* PBXTargetDependency */,
+			);
+			name = "SocialWallet-iOS-SDK-DemoUITests";
+			productName = "SocialWallet-iOS-SDK-DemoUITests";
+			productReference = 717A5A5C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717A5A351F04F4A200D6B1DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Soliton Digital Sdn Bhd";
+				TargetAttributes = {
+					717A5A3C1F04F4A200D6B1DC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LL4L4Z533W;
+						ProvisioningStyle = Automatic;
+					};
+					717A5A501F04F4A200D6B1DC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LL4L4Z533W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 717A5A3C1F04F4A200D6B1DC;
+					};
+					717A5A5B1F04F4A200D6B1DC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LL4L4Z533W;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 717A5A3C1F04F4A200D6B1DC;
+					};
+				};
+			};
+			buildConfigurationList = 717A5A381F04F4A200D6B1DC /* Build configuration list for PBXProject "SocialWallet-iOS-SDK-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 717A5A341F04F4A200D6B1DC;
+			productRefGroup = 717A5A3E1F04F4A200D6B1DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				717A5A3C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo */,
+				717A5A501F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests */,
+				717A5A5B1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717A5A3B1F04F4A200D6B1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717A5A4B1F04F4A200D6B1DC /* LaunchScreen.storyboard in Resources */,
+				717A5A481F04F4A200D6B1DC /* Assets.xcassets in Resources */,
+				717A5A461F04F4A200D6B1DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717A5A4F1F04F4A200D6B1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717A5A5A1F04F4A200D6B1DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717A5A391F04F4A200D6B1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717A5A431F04F4A200D6B1DC /* ViewController.swift in Sources */,
+				717A5A411F04F4A200D6B1DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717A5A4D1F04F4A200D6B1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717A5A561F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717A5A581F04F4A200D6B1DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717A5A611F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		717A5A531F04F4A200D6B1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717A5A3C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo */;
+			targetProxy = 717A5A521F04F4A200D6B1DC /* PBXContainerItemProxy */;
+		};
+		717A5A5E1F04F4A200D6B1DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717A5A3C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo */;
+			targetProxy = 717A5A5D1F04F4A200D6B1DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		717A5A441F04F4A200D6B1DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717A5A451F04F4A200D6B1DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		717A5A491F04F4A200D6B1DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717A5A4A1F04F4A200D6B1DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717A5A631F04F4A200D6B1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		717A5A641F04F4A200D6B1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717A5A661F04F4A200D6B1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LL4L4Z533W;
+				INFOPLIST_FILE = "SocialWallet-iOS-SDK-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solitondigital.SocialWallet-iOS-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		717A5A671F04F4A200D6B1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LL4L4Z533W;
+				INFOPLIST_FILE = "SocialWallet-iOS-SDK-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solitondigital.SocialWallet-iOS-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		717A5A691F04F4A200D6B1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LL4L4Z533W;
+				INFOPLIST_FILE = "SocialWallet-iOS-SDK-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solitondigital.SocialWallet-iOS-SDK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialWallet-iOS-SDK-Demo.app/SocialWallet-iOS-SDK-Demo";
+			};
+			name = Debug;
+		};
+		717A5A6A1F04F4A200D6B1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LL4L4Z533W;
+				INFOPLIST_FILE = "SocialWallet-iOS-SDK-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solitondigital.SocialWallet-iOS-SDK-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialWallet-iOS-SDK-Demo.app/SocialWallet-iOS-SDK-Demo";
+			};
+			name = Release;
+		};
+		717A5A6C1F04F4A200D6B1DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LL4L4Z533W;
+				INFOPLIST_FILE = "SocialWallet-iOS-SDK-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solitondigital.SocialWallet-iOS-SDK-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SocialWallet-iOS-SDK-Demo";
+			};
+			name = Debug;
+		};
+		717A5A6D1F04F4A200D6B1DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LL4L4Z533W;
+				INFOPLIST_FILE = "SocialWallet-iOS-SDK-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.solitondigital.SocialWallet-iOS-SDK-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SocialWallet-iOS-SDK-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717A5A381F04F4A200D6B1DC /* Build configuration list for PBXProject "SocialWallet-iOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717A5A631F04F4A200D6B1DC /* Debug */,
+				717A5A641F04F4A200D6B1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717A5A651F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717A5A661F04F4A200D6B1DC /* Debug */,
+				717A5A671F04F4A200D6B1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		717A5A681F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717A5A691F04F4A200D6B1DC /* Debug */,
+				717A5A6A1F04F4A200D6B1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		717A5A6B1F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717A5A6C1F04F4A200D6B1DC /* Debug */,
+				717A5A6D1F04F4A200D6B1DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 717A5A351F04F4A200D6B1DC /* Project object */;
+}
