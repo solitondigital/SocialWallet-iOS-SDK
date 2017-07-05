@@ -1,0 +1,3 @@
+framework module SocialWalletSDK {
+    header "SocialWalletSDK-Swift.h"
+}

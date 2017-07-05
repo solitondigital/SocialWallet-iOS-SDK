@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.5.0)
+  - CryptoSwift (0.6.9)
+  - Eureka (3.0.0)
+  - Kingfisher (3.10.2)
+  - SocialWalletSDK (0.0.4):
+    - Alamofire (~> 4.4)
+    - CryptoSwift
+    - Eureka
+    - Kingfisher (~> 3.0)
+
+DEPENDENCIES:
+  - SocialWalletSDK
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  Eureka: f36fd440c3ebb7bfea0a4fbe6f16a05f1cb35906
+  Kingfisher: 7297492bf8cec9b2e2dee3519f2219948580d98e
+  SocialWalletSDK: 87a77470d505499bb43d58c3a6baa10831099fad
+
+PODFILE CHECKSUM: 1a2be47c56a9a02fba02fd1825e784c08d59a620
+
+COCOAPODS: 1.2.0
