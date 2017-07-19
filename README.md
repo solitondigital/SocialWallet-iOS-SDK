@@ -6,7 +6,7 @@
 
 [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
 
-Specify Eureka into your project's `Podfile`:
+Specify SocialWalletSDK into your project's `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
