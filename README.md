@@ -19,7 +19,7 @@ pod 'SocialWalletSDK'
 Then run the following command:
 
 ```bash
-$ pod install
+$ Pod install
 ```
 ## Usage
 
