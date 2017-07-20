@@ -182,8 +182,23 @@
                                             <constraint firstAttribute="height" constant="50" id="1Pm-bZ-cTR"/>
                                         </constraints>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vOi-Jx-pwH">
+                                        <rect key="frame" x="0.0" y="350" width="343" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddv-bd-gXl">
+                                                <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                                <state key="normal" title="Continue Shopping"/>
+                                                <connections>
+                                                    <action selector="continueShopping:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="kaN-hp-aS9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="nXx-ct-Kwy"/>
+                                        </constraints>
+                                    </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Le5-eh-TJo">
-                                        <rect key="frame" x="0.0" y="350" width="343" height="253"/>
+                                        <rect key="frame" x="0.0" y="400" width="343" height="203"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
@@ -193,6 +208,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Le5-eh-TJo" secondAttribute="trailing" id="9fq-ZH-suF"/>
                                     <constraint firstItem="NEe-dJ-mve" firstAttribute="leading" secondItem="kDA-US-bVY" secondAttribute="leading" id="Fod-dS-Nbd"/>
                                     <constraint firstAttribute="trailing" secondItem="RMl-eQ-mjC" secondAttribute="trailing" id="Iws-uE-IJL"/>
+                                    <constraint firstAttribute="trailing" secondItem="vOi-Jx-pwH" secondAttribute="trailing" id="KKB-CU-05p"/>
                                     <constraint firstAttribute="trailing" secondItem="DxM-lj-Cee" secondAttribute="trailing" id="W5R-iO-B9q"/>
                                     <constraint firstItem="Le5-eh-TJo" firstAttribute="leading" secondItem="kDA-US-bVY" secondAttribute="leading" id="Zvj-HI-lPs"/>
                                     <constraint firstAttribute="trailing" secondItem="KpF-kW-fOC" secondAttribute="trailing" id="dqe-pj-NhQ"/>
@@ -203,6 +219,7 @@
                                     <constraint firstItem="KpF-kW-fOC" firstAttribute="leading" secondItem="kDA-US-bVY" secondAttribute="leading" id="pEC-n6-9cZ"/>
                                     <constraint firstItem="5Q5-am-yFE" firstAttribute="leading" secondItem="kDA-US-bVY" secondAttribute="leading" id="qnO-Bk-XEj"/>
                                     <constraint firstAttribute="trailing" secondItem="NEe-dJ-mve" secondAttribute="trailing" id="w7A-GU-Vcb"/>
+                                    <constraint firstItem="vOi-Jx-pwH" firstAttribute="leading" secondItem="kDA-US-bVY" secondAttribute="leading" id="xkZ-Vd-ctv"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -217,9 +234,11 @@
                     <navigationItem key="navigationItem" id="ZkG-zH-bBo"/>
                     <connections>
                         <outlet property="amountT" destination="HfE-37-HZk" id="De1-rn-aDd"/>
+                        <outlet property="continueView" destination="vOi-Jx-pwH" id="kdk-Pl-zn6"/>
                         <outlet property="itemDesc" destination="DlQ-d1-dCV" id="UZV-SW-26S"/>
                         <outlet property="merchantID" destination="Udw-GD-USs" id="Ago-iP-AVQ"/>
                         <outlet property="orderID" destination="4M2-dI-Tgw" id="WmL-8v-jVi"/>
+                        <outlet property="payView" destination="KpF-kW-fOC" id="XWz-g5-7Xz"/>
                         <outlet property="paymentID" destination="zof-bR-xCp" id="PiW-T1-JMO"/>
                         <outlet property="paymentView" destination="RMl-eQ-mjC" id="3ja-x9-9LQ"/>
                         <outlet property="status" destination="0W8-za-Vlr" id="KTx-4o-ehZ"/>
