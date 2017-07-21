@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		29692CCA66AC38A8A874B6F5 /* Pods_SocialWallet_iOS_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679DF907AE5E4774AE7EA5E0 /* Pods_SocialWallet_iOS_SDK_Demo.framework */; };
 		717A5A411F04F4A200D6B1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A401F04F4A200D6B1DC /* AppDelegate.swift */; };
-		717A5A431F04F4A200D6B1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A421F04F4A200D6B1DC /* ViewController.swift */; };
 		717A5A461F04F4A200D6B1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A441F04F4A200D6B1DC /* Main.storyboard */; };
 		717A5A481F04F4A200D6B1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A471F04F4A200D6B1DC /* Assets.xcassets */; };
 		717A5A4B1F04F4A200D6B1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A491F04F4A200D6B1DC /* LaunchScreen.storyboard */; };
 		717A5A561F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A551F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift */; };
 		717A5A611F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A601F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift */; };
+		718746EA1F220CEA00760112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718746E91F220CEA00760112 /* ViewController.swift */; };
 		A69D2241BD639715B623271E /* Pods_SocialWallet_iOS_SDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394E837DB32365351C9E4A87 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */; };
 		A71ECFDBA7C6465573163D0B /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2231D226ED858AF1E0182403 /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -44,7 +44,6 @@
 		679DF907AE5E4774AE7EA5E0 /* Pods_SocialWallet_iOS_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		717A5A3D1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialWallet-iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717A5A401F04F4A200D6B1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		717A5A421F04F4A200D6B1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		717A5A451F04F4A200D6B1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		717A5A471F04F4A200D6B1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		717A5A4A1F04F4A200D6B1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		717A5A5C1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SocialWallet-iOS-SDK-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717A5A601F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialWallet_iOS_SDK_DemoUITests.swift; sourceTree = "<group>"; };
 		717A5A621F04F4A200D6B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		718746E91F220CEA00760112 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DEFC72539914327F9069A1E /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		883B47034B1A2375965BCFF1 /* Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DE6D5DC1DA2A42F5FEF22698 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,11 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				717A5A401F04F4A200D6B1DC /* AppDelegate.swift */,
-				717A5A421F04F4A200D6B1DC /* ViewController.swift */,
 				717A5A441F04F4A200D6B1DC /* Main.storyboard */,
 				717A5A471F04F4A200D6B1DC /* Assets.xcassets */,
 				717A5A491F04F4A200D6B1DC /* LaunchScreen.storyboard */,
 				717A5A4C1F04F4A200D6B1DC /* Info.plist */,
+				718746E91F220CEA00760112 /* ViewController.swift */,
 			);
 			path = "SocialWallet-iOS-SDK-Demo";
 			sourceTree = "<group>";
@@ -449,7 +449,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717A5A431F04F4A200D6B1DC /* ViewController.swift in Sources */,
+				718746EA1F220CEA00760112 /* ViewController.swift in Sources */,
 				717A5A411F04F4A200D6B1DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
