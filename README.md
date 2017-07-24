@@ -1,16 +1,15 @@
 # SocialWallet-iOS-SDK-Demo
 
-## Pre Requisites
+## 1) Pre Requisites
 
 - Xcode
 - CocoaPods
 - Test Merchant Code, API Key and Username/PIN (email sdk@solitondigital.io to obtain)
 
-## Installation
+## 2) Installation
 
-#### CocoaPods
 
-[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
+I) [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
 
 Install CocoaPods by running following command in Terminal
 
@@ -18,7 +17,7 @@ Install CocoaPods by running following command in Terminal
 $ sudo gem install cocoapods
 ```
 
-Specify SocialWalletSDK into your project's `Podfile`:
+II) Specify SocialWalletSDK into your project's `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -28,14 +27,14 @@ use_frameworks!
 pod 'SocialWalletSDK'
 ```
 
-Then run the following command:
+III) Then run the following command:
 
 ```bash
 $ Pod install
 ```
-## Usage
+## 3) Usage
 
-### How to make payment
+### I) How to make payment
 Create a new object SocialWalletSDK and initialise it with api_key, merchant_code, order_id, amount, item_description and production(true for production, false for development).
 
 ```swift
@@ -64,7 +63,7 @@ class ViewController: UIViewController, SocialWalletDelegate  {
 }
 ```
 
-### How to listen to payment event
+### II) How to listen to payment event
 Implement SocialWalletDelegate to your view controller. paymentCallback method will be called upon any payment event.
 
 ```swift
@@ -88,6 +87,6 @@ class ViewController: UIViewController, SocialWalletDelegate  {
 
 Status = 2 : Payment successful (Please email sdk@solitondigital.io for complete list of status codes)
 
-## Moving into Production
+## 4) Moving into Production
 
 Please email sdk@solitondigital.io to obtain production Merchant Code and API Key when you are ready to go live
