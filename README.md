@@ -4,7 +4,7 @@
 
 - Xcode
 - CocoaPods
-- Test Merchant Code, API Key and Username/PIN (email sdk@solitondigital.io to obtain)
+- Test Merchant Code, API Key and Username/PIN (please email sdk@solitondigital.io to obtain)
 
 ## 2) Installation
 
