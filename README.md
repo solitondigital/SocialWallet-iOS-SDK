@@ -1,4 +1,4 @@
-# SocialWallet-iOS-SDK-Demo
+# SocialWallet-iOS-SDK And Sample Code
 
 ## 1) Pre Requisites
 
@@ -6,7 +6,7 @@
 - CocoaPods
 - Test Merchant Code, API Key and Username/PIN (please email sdk@solitondigital.io to obtain)
 
-## 2) Installation
+## 2) Adding the Social Wallet SDK to Your Project
 
 
 I) [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
