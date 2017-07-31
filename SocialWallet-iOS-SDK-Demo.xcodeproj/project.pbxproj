@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29692CCA66AC38A8A874B6F5 /* Pods_SocialWallet_iOS_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679DF907AE5E4774AE7EA5E0 /* Pods_SocialWallet_iOS_SDK_Demo.framework */; };
+		0A20E86FA0757170C34D1322 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60AC606E9622767741181D2 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */; };
+		5BCB40E6DB9E7CC8187AA247 /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C81B2765602B43EE49B87D /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */; };
+		6F7CDD6813B6C9A09EC7969B /* Pods_SocialWallet_iOS_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CF5F56B41531C7BE09475D /* Pods_SocialWallet_iOS_SDK_Demo.framework */; };
 		717A5A411F04F4A200D6B1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A401F04F4A200D6B1DC /* AppDelegate.swift */; };
 		717A5A461F04F4A200D6B1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A441F04F4A200D6B1DC /* Main.storyboard */; };
 		717A5A481F04F4A200D6B1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A471F04F4A200D6B1DC /* Assets.xcassets */; };
@@ -15,8 +17,6 @@
 		717A5A561F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A551F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoTests.swift */; };
 		717A5A611F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A601F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift */; };
 		718746EA1F220CEA00760112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718746E91F220CEA00760112 /* ViewController.swift */; };
-		A69D2241BD639715B623271E /* Pods_SocialWallet_iOS_SDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394E837DB32365351C9E4A87 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */; };
-		A71ECFDBA7C6465573163D0B /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2231D226ED858AF1E0182403 /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2231D226ED858AF1E0182403 /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2668C9C5309FB9C4199A9391 /* Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		323DA6BA9CCEC42C3E3FA8EF /* Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		394E837DB32365351C9E4A87 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		679DF907AE5E4774AE7EA5E0 /* Pods_SocialWallet_iOS_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A99D00F90F90B290F554070 /* Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		11C81B2765602B43EE49B87D /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B3185F4BDB5F297C910681 /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		5FA7025021916D87A9FC86C3 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		717A5A3D1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialWallet-iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717A5A401F04F4A200D6B1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		717A5A451F04F4A200D6B1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,10 +54,11 @@
 		717A5A601F04F4A200D6B1DC /* SocialWallet_iOS_SDK_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialWallet_iOS_SDK_DemoUITests.swift; sourceTree = "<group>"; };
 		717A5A621F04F4A200D6B1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		718746E91F220CEA00760112 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DEFC72539914327F9069A1E /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		883B47034B1A2375965BCFF1 /* Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DE6D5DC1DA2A42F5FEF22698 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		E6B9389EFB0058BEB4D8343A /* Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		817FAE78F9AAA00E663DF760 /* Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A49261187DC51D3AB1831B17 /* Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9CF5F56B41531C7BE09475D /* Pods_SocialWallet_iOS_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47E65E1A02C83162EDA932F /* Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F60AC606E9622767741181D2 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29692CCA66AC38A8A874B6F5 /* Pods_SocialWallet_iOS_SDK_Demo.framework in Frameworks */,
+				6F7CDD6813B6C9A09EC7969B /* Pods_SocialWallet_iOS_SDK_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A69D2241BD639715B623271E /* Pods_SocialWallet_iOS_SDK_DemoTests.framework in Frameworks */,
+				0A20E86FA0757170C34D1322 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,24 +82,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A71ECFDBA7C6465573163D0B /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework in Frameworks */,
+				5BCB40E6DB9E7CC8187AA247 /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58334FB4AA00DE4C7CB82FDA /* Pods */ = {
+		18D40DC51A41416B95ACE848 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				323DA6BA9CCEC42C3E3FA8EF /* Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig */,
-				7DEFC72539914327F9069A1E /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */,
-				E6B9389EFB0058BEB4D8343A /* Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig */,
-				DE6D5DC1DA2A42F5FEF22698 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */,
-				2668C9C5309FB9C4199A9391 /* Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig */,
-				883B47034B1A2375965BCFF1 /* Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig */,
+				0A99D00F90F90B290F554070 /* Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig */,
+				30B3185F4BDB5F297C910681 /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */,
+				A49261187DC51D3AB1831B17 /* Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig */,
+				5FA7025021916D87A9FC86C3 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */,
+				F47E65E1A02C83162EDA932F /* Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig */,
+				817FAE78F9AAA00E663DF760 /* Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		2DA4A8D3F4A7C602DCDA16C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9CF5F56B41531C7BE09475D /* Pods_SocialWallet_iOS_SDK_Demo.framework */,
+				F60AC606E9622767741181D2 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */,
+				11C81B2765602B43EE49B87D /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		717A5A341F04F4A200D6B1DC = {
@@ -109,8 +119,8 @@
 				717A5A541F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoTests */,
 				717A5A5F1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-DemoUITests */,
 				717A5A3E1F04F4A200D6B1DC /* Products */,
-				58334FB4AA00DE4C7CB82FDA /* Pods */,
-				C6F671A0369399E120FEB93C /* Frameworks */,
+				18D40DC51A41416B95ACE848 /* Pods */,
+				2DA4A8D3F4A7C602DCDA16C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,16 +165,6 @@
 			path = "SocialWallet-iOS-SDK-DemoUITests";
 			sourceTree = "<group>";
 		};
-		C6F671A0369399E120FEB93C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				679DF907AE5E4774AE7EA5E0 /* Pods_SocialWallet_iOS_SDK_Demo.framework */,
-				394E837DB32365351C9E4A87 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */,
-				2231D226ED858AF1E0182403 /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,12 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717A5A651F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-Demo" */;
 			buildPhases = (
-				442D5EB69A88C78625D0B8FB /* [CP] Check Pods Manifest.lock */,
+				079EA41F64EBED951E38AFEF /* [CP] Check Pods Manifest.lock */,
 				717A5A391F04F4A200D6B1DC /* Sources */,
 				717A5A3A1F04F4A200D6B1DC /* Frameworks */,
 				717A5A3B1F04F4A200D6B1DC /* Resources */,
-				6358AE3520EEA6B393FE5DF8 /* [CP] Embed Pods Frameworks */,
-				EAEB4970C12004785DD9314D /* [CP] Copy Pods Resources */,
+				9ED8B1BD3DB27E5C9104DA6C /* [CP] Embed Pods Frameworks */,
+				968039C68D96AFD83D8F22CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,12 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717A5A681F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-DemoTests" */;
 			buildPhases = (
-				7D163704D0AD6B9F7EE57C3A /* [CP] Check Pods Manifest.lock */,
+				02DEE896A0E46B4CB34EECB7 /* [CP] Check Pods Manifest.lock */,
 				717A5A4D1F04F4A200D6B1DC /* Sources */,
 				717A5A4E1F04F4A200D6B1DC /* Frameworks */,
 				717A5A4F1F04F4A200D6B1DC /* Resources */,
-				9CBDA2480B58DD49FBE7C605 /* [CP] Embed Pods Frameworks */,
-				ACBECFF0357CDB310FC81725 /* [CP] Copy Pods Resources */,
+				DAC55B490919D159B4D50B4B /* [CP] Embed Pods Frameworks */,
+				4107DAEEBE575BD32E93984B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,12 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 717A5A6B1F04F4A200D6B1DC /* Build configuration list for PBXNativeTarget "SocialWallet-iOS-SDK-DemoUITests" */;
 			buildPhases = (
-				38E6C6652F6AD1A6DD42BFD5 /* [CP] Check Pods Manifest.lock */,
+				EE53A9974C8F5E8B29F5CD7F /* [CP] Check Pods Manifest.lock */,
 				717A5A581F04F4A200D6B1DC /* Sources */,
 				717A5A591F04F4A200D6B1DC /* Frameworks */,
 				717A5A5A1F04F4A200D6B1DC /* Resources */,
-				5ADA09E61608AD131BB9627D /* [CP] Embed Pods Frameworks */,
-				AA7EB6CF858EA0BDD09D37CF /* [CP] Copy Pods Resources */,
+				77A6F91F66BB94D349FDAB95 /* [CP] Embed Pods Frameworks */,
+				4A44AEC5B62174E57BBABD27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -307,7 +307,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		38E6C6652F6AD1A6DD42BFD5 /* [CP] Check Pods Manifest.lock */ = {
+		02DEE896A0E46B4CB34EECB7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -322,7 +322,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		442D5EB69A88C78625D0B8FB /* [CP] Check Pods Manifest.lock */ = {
+		079EA41F64EBED951E38AFEF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,82 +337,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		5ADA09E61608AD131BB9627D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6358AE3520EEA6B393FE5DF8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D163704D0AD6B9F7EE57C3A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		9CBDA2480B58DD49FBE7C605 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA7EB6CF858EA0BDD09D37CF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ACBECFF0357CDB310FC81725 /* [CP] Copy Pods Resources */ = {
+		4107DAEEBE575BD32E93984B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -427,7 +352,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EAEB4970C12004785DD9314D /* [CP] Copy Pods Resources */ = {
+		4A44AEC5B62174E57BBABD27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77A6F91F66BB94D349FDAB95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoUITests/Pods-SocialWallet-iOS-SDK-DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		968039C68D96AFD83D8F22CB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,6 +395,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED8B1BD3DB27E5C9104DA6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC55B490919D159B4D50B4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE53A9974C8F5E8B29F5CD7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -551,7 +551,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -602,7 +602,7 @@
 		};
 		717A5A661F04F4A200D6B1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 323DA6BA9CCEC42C3E3FA8EF /* Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig */;
+			baseConfigurationReference = 0A99D00F90F90B290F554070 /* Pods-SocialWallet-iOS-SDK-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LL4L4Z533W;
@@ -616,7 +616,7 @@
 		};
 		717A5A671F04F4A200D6B1DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DEFC72539914327F9069A1E /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */;
+			baseConfigurationReference = 30B3185F4BDB5F297C910681 /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LL4L4Z533W;
@@ -630,7 +630,7 @@
 		};
 		717A5A691F04F4A200D6B1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6B9389EFB0058BEB4D8343A /* Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig */;
+			baseConfigurationReference = A49261187DC51D3AB1831B17 /* Pods-SocialWallet-iOS-SDK-DemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -646,7 +646,7 @@
 		};
 		717A5A6A1F04F4A200D6B1DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE6D5DC1DA2A42F5FEF22698 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */;
+			baseConfigurationReference = 5FA7025021916D87A9FC86C3 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -662,7 +662,7 @@
 		};
 		717A5A6C1F04F4A200D6B1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2668C9C5309FB9C4199A9391 /* Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig */;
+			baseConfigurationReference = F47E65E1A02C83162EDA932F /* Pods-SocialWallet-iOS-SDK-DemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LL4L4Z533W;
@@ -677,7 +677,7 @@
 		};
 		717A5A6D1F04F4A200D6B1DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 883B47034B1A2375965BCFF1 /* Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig */;
+			baseConfigurationReference = 817FAE78F9AAA00E663DF760 /* Pods-SocialWallet-iOS-SDK-DemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LL4L4Z533W;
