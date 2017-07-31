@@ -1,12 +1,23 @@
-# SocialWallet-iOS-SDK-Demo
+# SocialWallet-iOS-SDK And Sample Code
 
-## Installation
+## 1) Pre Requisites
 
-#### CocoaPods
+- Xcode
+- CocoaPods
+- Test Merchant Code, API Key and Username/PIN (please email sdk@solitondigital.io to obtain)
 
-[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
+## 2) Adding the Social Wallet SDK to Your Project
 
-Specify SocialWalletSDK into your project's `Podfile`:
+
+I) [CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects.
+
+Install CocoaPods by running following command in Terminal
+
+```bash
+$ sudo gem install cocoapods
+```
+
+II) Specify SocialWalletSDK into your project's `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -16,15 +27,15 @@ use_frameworks!
 pod 'SocialWalletSDK'
 ```
 
-Then run the following command:
+III) Then run the following command:
 
 ```bash
 $ Pod install
 ```
-## Usage
+## 3) Usage
 
-### How to make payment
-Create a new object SocialWalletSDK and initialise it with api_key, merchant_code, order_id, amount, item_description and production(false for development).
+### I) How to make payment
+Create a new object SocialWalletSDK and initialise it with api_key, merchant_code, order_id, amount, item_description and production(true for production, false for development).
 
 ```swift
 import SocialWalletSDK
@@ -52,7 +63,7 @@ class ViewController: UIViewController, SocialWalletDelegate  {
 }
 ```
 
-### How to listen to payment event
+### II) How to listen to payment event
 Implement SocialWalletDelegate to your view controller. paymentCallback method will be called upon any payment event.
 
 ```swift
@@ -74,4 +85,8 @@ class ViewController: UIViewController, SocialWalletDelegate  {
 }
 ```
 
-Status = 2 : Successfull Payment
+Status = 2 : Payment successful (Please email sdk@solitondigital.io for complete list of status codes)
+
+## 4) Moving into Production
+
+Please email sdk@solitondigital.io to obtain production Merchant Code and API Key when you are ready to go live
