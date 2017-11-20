@@ -7,6 +7,7 @@ target 'SocialWallet-iOS-SDK-Demo' do
 
   # Pods for SocialWallet-iOS-SDK-Demo
   pod 'SocialWalletSDK'
+  pod 'CallbackURLKit'
 
   target 'SocialWallet-iOS-SDK-DemoTests' do
     inherit! :search_paths
@@ -17,5 +18,18 @@ target 'SocialWallet-iOS-SDK-Demo' do
     inherit! :search_paths
     # Pods for testing
   end
-
+  
+  post_install do |installer|
+      # Your list of targets here.
+      myTargets = ['CryptoSwift', 'Eureka', 'CallbackURLKit', 'Kingfisher', 'Alamofire']
+      
+      installer.pods_project.targets.each do |target|
+          if myTargets.include? target.name
+              target.build_configurations.each do |config|
+                  config.build_settings['SWIFT_VERSION'] = '4.0'
+              end
+          end
+      end
+  end
+  
 end

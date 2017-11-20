@@ -8,20 +8,59 @@
 
 import UIKit
 import SocialWalletSDK
+import CallbackURLKit
 
 class ViewController: UIViewController, SocialWalletDelegate {
     
+    
     //  Please email sdk@solitondigital.io to register for api key and merchant code
-    //    let api_key = ""
-    //    let merchant_code = ""
     let api_key = ""
     let merchant_code = ""
     var order_id = String(describing: UInt64(Date().timeIntervalSince1970))
     let amount = "1.00"
     let item_description = "Sandisk 32GB Memory Card"
+    let socialWalletVC = SocialWalletSDK()
     
     // Change production to true for production use.
     let production = false
+    
+    func querySocialWalletApp()
+    {
+        do {
+            try GetUserNameCallback.instance.getUsername(
+                "getUsername",
+                onSuccess:  { parameters in
+                    
+                    self.socialWalletVC.requestPayment(username: (parameters!["text"] as! String))
+                    
+            },
+                onFailure: { error in
+                    
+            }
+            )
+        } catch CallbackURLKitError.appWithSchemeNotInstalled(let scheme) {
+            
+            // App Store URL.
+            let appStoreLink = "https://itunes.apple.com/us/app/social-wallet-my/id1243398893?mt=8"
+            
+            /* First create a URL, then check whether there is an installed app that can
+             open it on the device. */
+            if let url = URL(string: appStoreLink), UIApplication.shared.canOpenURL(url) {
+                // Attempt to open the URL.
+                UIApplication.shared.open(url, options: [:], completionHandler: {(success: Bool) in
+                    if success {
+                        print("Launching \(url) was successful")
+                    }})
+            }
+            
+            
+        } catch CallbackURLKitError.callbackURLSchemeNotDefined {
+            print("current app scheme not defined")
+        } catch let e {
+            print("exception \(e)")
+        }
+        
+    }
     
     // This method is call after payment is successfull or any query payment.
     func paymentCallback(order_id: String, status: String, amount: String, description: String, emoney_txid: String, payment_id: String, request_time: String, user_name: String) {
@@ -54,6 +93,7 @@ class ViewController: UIViewController, SocialWalletDelegate {
         
     }
     
+    
     @IBOutlet weak var payView: UIStackView!
     @IBOutlet weak var continueView: UIStackView!
     
@@ -77,8 +117,6 @@ class ViewController: UIViewController, SocialWalletDelegate {
     }
     
     @IBAction func requestPayment(_ sender: Any){
-        
-        let socialWalletVC = SocialWalletSDK()
         
         socialWalletVC.initSDK(api_key: api_key,
                                merchant_code: merchant_code,

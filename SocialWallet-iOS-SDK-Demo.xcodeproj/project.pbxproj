@@ -10,6 +10,8 @@
 		0A20E86FA0757170C34D1322 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60AC606E9622767741181D2 /* Pods_SocialWallet_iOS_SDK_DemoTests.framework */; };
 		5BCB40E6DB9E7CC8187AA247 /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C81B2765602B43EE49B87D /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */; };
 		6F7CDD6813B6C9A09EC7969B /* Pods_SocialWallet_iOS_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9CF5F56B41531C7BE09475D /* Pods_SocialWallet_iOS_SDK_Demo.framework */; };
+		716D9CC81FC333A800DADF05 /* GetUserNameCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D9CC71FC333A800DADF05 /* GetUserNameCallback.swift */; };
+		716D9CCA1FC333BC00DADF05 /* BackToRequestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D9CC91FC333BC00DADF05 /* BackToRequestApp.swift */; };
 		717A5A411F04F4A200D6B1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A5A401F04F4A200D6B1DC /* AppDelegate.swift */; };
 		717A5A461F04F4A200D6B1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A441F04F4A200D6B1DC /* Main.storyboard */; };
 		717A5A481F04F4A200D6B1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717A5A471F04F4A200D6B1DC /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		11C81B2765602B43EE49B87D /* Pods_SocialWallet_iOS_SDK_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialWallet_iOS_SDK_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B3185F4BDB5F297C910681 /* Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-Demo/Pods-SocialWallet-iOS-SDK-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		5FA7025021916D87A9FC86C3 /* Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialWallet-iOS-SDK-DemoTests/Pods-SocialWallet-iOS-SDK-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		716D9CC71FC333A800DADF05 /* GetUserNameCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserNameCallback.swift; sourceTree = "<group>"; };
+		716D9CC91FC333BC00DADF05 /* BackToRequestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackToRequestApp.swift; sourceTree = "<group>"; };
 		717A5A3D1F04F4A200D6B1DC /* SocialWallet-iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SocialWallet-iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		717A5A401F04F4A200D6B1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		717A5A451F04F4A200D6B1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 				717A5A491F04F4A200D6B1DC /* LaunchScreen.storyboard */,
 				717A5A4C1F04F4A200D6B1DC /* Info.plist */,
 				718746E91F220CEA00760112 /* ViewController.swift */,
+				716D9CC71FC333A800DADF05 /* GetUserNameCallback.swift */,
+				716D9CC91FC333BC00DADF05 /* BackToRequestApp.swift */,
 			);
 			path = "SocialWallet-iOS-SDK-Demo";
 			sourceTree = "<group>";
@@ -451,6 +457,8 @@
 			files = (
 				718746EA1F220CEA00760112 /* ViewController.swift in Sources */,
 				717A5A411F04F4A200D6B1DC /* AppDelegate.swift in Sources */,
+				716D9CC81FC333A800DADF05 /* GetUserNameCallback.swift in Sources */,
+				716D9CCA1FC333BC00DADF05 /* BackToRequestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
