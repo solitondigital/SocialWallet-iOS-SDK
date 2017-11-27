@@ -19,7 +19,7 @@ class ViewController: UIViewController, SocialWalletDelegate {
     var order_id = String(describing: UInt64(Date().timeIntervalSince1970))
     let amount = "1.00"
     let item_description = "Sandisk 32GB Memory Card"
-    let socialWalletVC = SocialWalletSDK()
+    var socialWalletVC = SocialWalletSDK()
     
     // Change production to true for production use.
     let production = false
@@ -31,11 +31,22 @@ class ViewController: UIViewController, SocialWalletDelegate {
                 "getUsername",
                 onSuccess:  { parameters in
                     
-                    self.socialWalletVC.requestPayment(username: (parameters!["text"] as! String))
+                    if(parameters!["text"] != nil)
+                    {
+                        let usernamePayment = (parameters!["text"] as! String)
+                    
+                        print("GetUsername Payment : \(usernamePayment)")
+                        
+                    self.socialWalletVC.requestPayment(username: usernamePayment)
+                    
+                    }
                     
             },
                 onFailure: { error in
                     
+                    print("GetUsername fail")
+                    
+                    self.socialWalletVC.requestPayment(username: "")
             }
             )
         } catch CallbackURLKitError.appWithSchemeNotInstalled(let scheme) {
@@ -118,6 +129,8 @@ class ViewController: UIViewController, SocialWalletDelegate {
     
     @IBAction func requestPayment(_ sender: Any){
         
+        socialWalletVC = SocialWalletSDK()
+        
         socialWalletVC.initSDK(api_key: api_key,
                                merchant_code: merchant_code,
                                order_id: order_id,
@@ -143,6 +156,14 @@ class ViewController: UIViewController, SocialWalletDelegate {
         statusView.isHidden = true
         payView.isHidden = false
         continueView.isHidden = true
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        super.viewDidAppear(animated)
+        
+        order_id = String(describing: UInt64(Date().timeIntervalSince1970))
+        orderID.text = order_id
     }
     
     override func didReceiveMemoryWarning() {
